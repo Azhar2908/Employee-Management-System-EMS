@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Employee Management System</title>
+    <style>
+        /* Add custom styles here */
+        .container {
+            padding-top: 50px; /* Adjusted spacing */
+        }
+        .navbar-brand {
+            color: #2c3e50; /* Dark gray */
+        }
+        .navbar-toggler-icon {
+            background-color: #2c3e50; /* Dark gray */
+        }
+        .navbar-nav .nav-link {
+            color: #2c3e50; /* Dark gray */
+        }
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+        }
+        .jumbotron {
+            background-color: #ecf0f1; /* Light gray */
+            padding: 2rem 1rem; /* Adjusted padding */
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Employee Management System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="available_employees">Available Employees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="my_employees">My Employees</a>
+                </li>
+            </ul>
+            <div>
+                <a class="nav-link" href="employee_register">New Employee Register</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-center">
+    <div class="jumbotron">
+        <h1>WELCOME TO EMPLOYEE MANAGEMENT SYSTEM</h1>
+        <h6>
+            An efficient employee management system is crucial for organizations to streamline their workforce operations effectively. It serves as the backbone for managing employee data, tracking performance metrics, facilitating communication, and fostering employee engagement. By automating tasks such as payroll processing, attendance tracking, and leave management, it reduces administrative burden and minimizes errors, ensuring compliance with labor regulations. Additionally, it provides valuable insights through analytics, enabling informed decision-making regarding resource allocation, talent development, and strategic planning. Ultimately, a robust employee management system promotes organizational efficiency, enhances employee satisfaction, and contributes to overall business success.
+        </h6>
+        <img src="/images/employee.jpg" class="img-fluid" alt="Employee Image" width="600px"/>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
