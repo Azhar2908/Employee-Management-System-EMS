@@ -26,6 +26,11 @@ public class EmployeeController {
         return "home";
     }
 
+    @GetMapping("/aboutMe")
+    public String aboutMe() {
+        return "aboutMe";
+    }
+
     @GetMapping("/employee_register")
     public String employeeRegister() {
         return "employeeRegister";
@@ -34,9 +39,6 @@ public class EmployeeController {
     @GetMapping("/available_employees")
     public ModelAndView getAllBook() {
         List<Employee> list=service.getAllEmployee();
-//		ModelAndView m=new ModelAndView();
-//		m.setViewName("bookList");
-//		m.addObject("book",list);
         return new ModelAndView("employeeList","employee",list);
     }
 
